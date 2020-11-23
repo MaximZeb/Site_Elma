@@ -1,0 +1,108 @@
+body {
+	min-width:1600px;
+	margin: 0px;
+	border: 0px;
+	font-family: Montserrat;
+
+}
+.container {
+	min-width:1600px;
+	padding:0px;
+	margin:0px;
+	background-color:#F8F9FF;
+	height:818px;
+	background-image: url("../img/1blok.svg");
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.intro {
+	margin: 0px 204px 0px 210px;
+	position: relative;
+}
+/*@media only screen and (max-width: 330px) {
+	div.intro {
+	margin-left:5px;
+	margin-right:10px;
+	position: relative;
+}
+}*/
+.navbar {
+	width: 1200px;
+	height: 38px;
+	margin:40px 0px 72px 0px;
+	position:absolute;
+}
+.header {
+	color: #221B60;
+	font-style: normal;
+	margin:104px 0px 0px 0px;
+	position: absolute;
+}
+/* стили для header	*/
+p {
+	font-weight: normal;
+	font-size: 30px;
+}
+.head1{
+	width: 763px;
+	height: 268px;
+	margin: 29px 0px 42px 0px;
+	padding: 0px 0px;
+	font-weight: bold;
+}
+h1 {
+	font-weight: bold;
+	font-size: 55px;
+	line-height: 67px;
+}
+.new{
+	margin: 42px 40px 76px 0px;
+	font-size: 25px;
+}
+/* button*/
+#poprobovati {
+	width: 400px;
+	height: 80px;
+	border: none;
+	font-weight: lighter;
+	font-size: 25px;
+	line-height: 30px;
+	color:#ffffff;
+	margin:74px 0px 104px 0px;
+	padding:25px 0px 25px 25px;
+	background-color:#3B347A;
+	display: block;
+	cursor: pointer;
+
+}
+#strelka {
+margin: auto 25px;
+}
+/* стили для navbar	*/
+a {
+	text-decoration: none;
+}
+.link {
+  content: "";
+  clear: both;
+  display: inline;
+  box-sizing: border-box;
+}
+#programma, #spiker {
+	margin-right:60px;
+	text-decoration: none;
+	color: #221B60;
+	position:top;
+	float: right;
+
+}
+
+
+.section1 {
+	font-color: #ffffff;
+	background-image: url("../img/question.svg");
+	background-position:403px;
+	background-repeat:no-repeat;
+	background-color:#3B347A;
+	height:560px;
+}
