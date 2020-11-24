@@ -96,13 +96,22 @@ a {
 	float: right;
 
 }
-
-
-.section1 {
-	font-color: #ffffff;
-	background-image: url("../img/question.svg");
-	background-position:403px;
-	background-repeat:no-repeat;
+/*второй слайд*/
+.container2 {
+	min-width:1600px;
+	padding:0px;
+	margin:0px;
 	background-color:#3B347A;
 	height:560px;
+}
+.intro2 {
+	margin: 0px 204px 0px 210px;
+	background-image: url("../img/question.svg");
+	background-repeat:no-repeat;
+}
+.text {
+	font-weight: 600;
+	font-size: 25px;
+	line-height: 150%;
+	color: #FFFFFF;
 }
