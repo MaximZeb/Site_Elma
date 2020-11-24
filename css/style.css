@@ -102,16 +102,39 @@ a {
 	padding:0px;
 	margin:0px;
 	background-color:#3B347A;
-	height:560px;
+	
 }
 .intro2 {
+	padding:0px;
 	margin: 0px 204px 0px 210px;
+	height:560px;
 	background-image: url("../img/question.svg");
 	background-repeat:no-repeat;
+	position: relative;
 }
 .text {
+	padding:0px;
+	margin:118px 0px 139px 0px;
 	font-weight: 600;
 	font-size: 25px;
 	line-height: 150%;
 	color: #FFFFFF;
+
+	position:absolute;
+
+}
+.text1 {
+	font-style: bold;
+	width: 416px;
+	height: 305px;
+	display:inline-block;
+	position:absolute;
+}
+.text2 {
+	margin-left: 500px;
+	font-style: normal;
+	width: 662px;
+	height: 308px;
+	display:inline-block;
+	position:absolute;
 }
