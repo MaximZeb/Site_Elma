@@ -138,3 +138,16 @@ a {
 	display:inline-block;
 	position:absolute;
 }
+/*контейнер 3 слайд*/
+.container3 {
+	min-width:1600px;
+	padding:0px;
+	margin:0px;
+	background-color:#AFE0D9;
+}
+.intro3 {
+	padding:0px;
+	margin: 0px 204px 0px 210px;
+	height:1465px;
+	position: relative;
+}
