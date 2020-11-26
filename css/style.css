@@ -3,6 +3,7 @@ body {
 	margin: 0px;
 	border: 0px;
 	font-family: Montserrat;
+	box-sizing: border-box;
 
 }
 .container {
@@ -113,7 +114,6 @@ a {
 .text {
 	padding:0px;
 	margin:118px 0px 139px 0px;
-	font-weight: 600;
 	font-size: 25px;
 	line-height: 150%;
 	color: #FFFFFF;
@@ -150,16 +150,84 @@ a {
 	margin: 0px 204px 0px 210px;
 	height:1465px;
 	position: relative;
+	color:#221B60;
+}
+.what_will_happen {
+	padding:0px;
+	margin:93px 0px 0px 0px;
+	position:absolute;
+}
+.who_will_be {
+	padding:0px;
+	margin:518px 0px 105px 0px;
+	position:absolute;
+}
+.head3{
+	font-style:bold;
+	font-size:55px;
+	
+}
+.head31{
+	margin: 0px;
+	float: left;
+	display:inline-block;
+	font-style:bold;
+	font-size:55px;
+	
+}
+/*СПИСОК*/
+.listUl {
+	margin: 20px 0px 0px 120px;
+	float: right;
+	display:inline-block;
+	height:340px;
+	width:640px;
+	font-style:normal;
+	font-size:30px;
+	line-height: 150%;
+}
+ul {
+
+	list-style-image: url(../img/EllipseList.svg);
+	margin: 0px
+}
+li {
+	margin-bottom:25px;
 }
 /*фото Владамира и его описание*/
 .Rounding {
 	border-radius: 200px;
 	background-repeat: no-repeat;
+	z-index: -1;
 }
 .vladimir{
-	
+	display:inline-block;
+	float: left;
+	width: 566px;
+	height: 310px;
+	box-sizing: border-box;
 }
+.FotoVladimir {
+	font-weight: bold;
+	font-size: 55px;
+}
+/*Положения имени отдельный контенейр*/
+.Repin{
+	margin: 5px;
+	width: 100px;
+	height: 134px;
+	display:inline-block;
+	z-index: 1;
+
+}
+
+
+
 /*фото Сергея и его описание*/
 .sergey{
-	
+	display:inline-block;
+	float: right;
+	width: 497px;
+	height: 266px;
+	box-sizing: border-box;
 }
