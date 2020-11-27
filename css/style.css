@@ -195,11 +195,6 @@ li {
 	margin-bottom:25px;
 }
 /*фото Владамира и его описание*/
-.Rounding {
-	border-radius: 200px;
-	background-repeat: no-repeat;
-	z-index: -1;
-}
 .vladimir{
 	display:inline-block;
 	float: left;
@@ -207,18 +202,31 @@ li {
 	height: 310px;
 	box-sizing: border-box;
 }
+.vova {
+	
+}
 .FotoVladimir {
+	position: relative;
 	font-weight: bold;
 	font-size: 55px;
 }
+.Rounding {
+	display: inline;
+	border-radius: 200px;
+	background-repeat: no-repeat;
+	position: absolute;
+}
+
+
 /*Положения имени отдельный контенейр*/
 .Repin{
+	float:;
 	margin: 5px;
 	width: 100px;
 	height: 134px;
 	display:inline-block;
 	z-index: 1;
-
+	position: absolute;
 }
 
 
