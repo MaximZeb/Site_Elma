@@ -257,3 +257,11 @@ li {
 	font-weight: bold;
 	font-size: 55px;
 }
+/*контайнер 4*/
+.container4 {
+	height: 1500px
+}
+.intro4 {
+	padding:0px;
+	margin: 0px 204px 0px 210px;
+}
