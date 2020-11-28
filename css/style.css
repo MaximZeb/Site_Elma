@@ -264,7 +264,41 @@ li {
 	padding:0px;
 	margin: 0px 204px 0px 210px;
 }
+.modul {
+	text-align:center;
+	margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*линия с кружком и галочкой*/
+.headlines {
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+}
 .liner{
  	margin: 0px;
 	padding: 0px;
@@ -291,7 +325,7 @@ li {
 	position: absolute;
 	margin: 50px 0px 0px 25px;
 	padding: 0px;
-	height: 1500px;
+	height: 1543px;
 	border-left: 3px solid #6BADA6;
 }
 .elips2 {
@@ -300,32 +334,32 @@ li {
 	position: absolute;
 }
 .elips3 {
-	margin: 427px 0px 0px 1px;
+	margin: 480px 0px 0px 1px;
 	padding: 0px;
 	position: absolute;
 }
 .elips4 {
-	margin: 665px 0px 0px 1px;
+	margin: 708px 0px 0px 1px;
 	padding: 0px;
 	position: absolute;
 }
 .elips5 {
-	margin: 843px 0px 0px 1px;
+	margin: 886px 0px 0px 1px;
 	padding: 0px;
 	position: absolute;
 }
 .elips6 {
-	margin: 1081px 0px 0px 1px;
+	margin: 1124px 0px 0px 1px;
 	padding: 0px;
 	position: absolute;
 }
 .elips7 {
-	margin: 1260px 0px 0px 1px;
+	margin: 1305px 0px 0px 1px;
 	padding: 0px;
 	position: absolute;
 }
 .elips8 {
-	margin: 1500px 0px 0px 1px;
+	margin: 1543px 0px 0px 1px;
 	padding: 0px;
 	position: absolute;
 }
