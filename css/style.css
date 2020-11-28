@@ -20,12 +20,11 @@ body {
 	margin: 0px 204px 0px 210px;
 	position: relative;
 }
-/*@media only screen and (max-width: 330px) {
-	div.intro {
-	margin-left:5px;
-	margin-right:10px;
-	position: relative;
-}
+/*@media screen and (min-width: 320px) {
+  .intro {
+    margin: 0px 204px 0px 210px;
+    position: relative;
+  }
 }*/
 .navbar {
 	width: 1200px;
@@ -264,4 +263,69 @@ li {
 .intro4 {
 	padding:0px;
 	margin: 0px 204px 0px 210px;
+}
+/*линия с кружком и галочкой*/
+.liner{
+ 	margin: 0px;
+	padding: 0px;
+	position: relative;
+}
+.elips1 {
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+}
+.elips {
+	position:relative;
+	width: 52px;
+	height: 52px;
+	background-image: url(../img/icon/Elips.svg)
+}
+.gal {
+	position: absolute;
+	width: auto;
+	height: auto;
+	margin: 21px 0px 23px 13px;
+}
+.line {
+	position: absolute;
+	margin: 50px 0px 0px 25px;
+	padding: 0px;
+	height: 1500px;
+	border-left: 3px solid #6BADA6;
+}
+.elips2 {
+	margin: 250px 0px 0px 1px;
+	padding: 0px;
+	position: absolute;
+}
+.elips3 {
+	margin: 427px 0px 0px 1px;
+	padding: 0px;
+	position: absolute;
+}
+.elips4 {
+	margin: 665px 0px 0px 1px;
+	padding: 0px;
+	position: absolute;
+}
+.elips5 {
+	margin: 843px 0px 0px 1px;
+	padding: 0px;
+	position: absolute;
+}
+.elips6 {
+	margin: 1081px 0px 0px 1px;
+	padding: 0px;
+	position: absolute;
+}
+.elips7 {
+	margin: 1260px 0px 0px 1px;
+	padding: 0px;
+	position: absolute;
+}
+.elips8 {
+	margin: 1500px 0px 0px 1px;
+	padding: 0px;
+	position: absolute;
 }
