@@ -265,15 +265,72 @@ li {
 	margin: 0px 204px 0px 210px;
 }
 .modul {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 49px;
+	color: #221B60;
 	text-align:center;
 	margin: auto;
 }
+/*Первая колонка первого моудля*/
+.colom1 {
+	width: 440px;
+	height: 1600px;
+	margin-top: 78px;
+	padding: 0px;
+	float: left;
+	color: #221B60;
 
+}
+/*первый блок 1 колонки*/
+.stringBlock1, .stringBlock2, .stringBlock3, .stringBlock4 {
+	width: 437px;
+	height: 122px;
+	margin-bottom: 140px;
+	display: inline-block;
+	float: left;
+}
+.may18 {
+	display: inline-block;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	color: #6BADA6;
+	margin-right: 50px;
+}
+.monday {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	display: inline-block;
+}
+.Systematext {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 30px;
+	margin: 10px 0px 21px 0px;
+}
+.prosec {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 150%;
+	letter-spacing: 0.01em;
+}
+.pod {
+	text-decoration: none;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 150%;
+	letter-spacing: 0.01em;
+	color: #9EA7DB;
+	opacity: 0.6;
+}
 
-
-
-
-
+ 
 
 
 
@@ -295,7 +352,7 @@ li {
 
 /*линия с кружком и галочкой*/
 .headlines {
-	margin: 0px;
+	margin: 86px 600px 0px 570px;
 	padding: 0px;
 	position: absolute;
 }
