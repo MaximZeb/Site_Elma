@@ -1,15 +1,37 @@
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+nav, footer, header, aside {
+  display: block;
+}
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+a {
+  text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
 body {
 	min-width:1600px;
-	margin: 0px;
-	border: 0px;
 	font-family: Montserrat;
 	box-sizing: border-box;
-
 }
 .container {
 	min-width:1600px;
-	padding:0px;
-	margin:0px;
 	background-color:#F8F9FF;
 	height:818px;
 	background-image: url("../img/1blok.svg");
@@ -47,7 +69,6 @@ p {
 	width: 763px;
 	height: 268px;
 	margin: 29px 0px 42px 0px;
-	padding: 0px 0px;
 	font-weight: bold;
 }
 h1 {
@@ -73,15 +94,11 @@ h1 {
 	background-color:#3B347A;
 	display: block;
 	cursor: pointer;
-
 }
 #strelka {
 margin: auto 25px;
 }
 /* стили для navbar	*/
-a {
-	text-decoration: none;
-}
 .link {
   content: "";
   clear: both;
@@ -90,11 +107,9 @@ a {
 }
 #programma, #spiker {
 	margin-right:60px;
-	text-decoration: none;
 	color: #221B60;
 	position:top;
 	float: right;
-
 }
 /*второй слайд*/
 .container2 {
@@ -102,22 +117,18 @@ a {
 	padding:0px;
 	margin:0px;
 	background-color:#3B347A;
-	
 }
 .intro2 {
-	padding:0px;
 	margin: 0px 204px 0px 210px;
 	height:560px;
 	position: relative;
 }
 .text {
-	padding:0px;
 	margin:118px 0px 139px 0px;
 	font-size: 25px;
 	line-height: 150%;
 	color: #FFFFFF;
 	position:absolute;
-
 }
 .text1 {
 	position:absolute;
@@ -164,7 +175,6 @@ a {
 .head3{
 	font-style:bold;
 	font-size:55px;
-	
 }
 .head31{
 	margin: 0px;
@@ -172,7 +182,6 @@ a {
 	display:inline-block;
 	font-style:bold;
 	font-size:55px;
-	
 }
 /*СПИСОК*/
 .listUl {
@@ -235,8 +244,6 @@ li {
 	width: 565px;
 	height: 309px;
 }
-
-
 /*фото Сергея и его описание*/
 .sergey{
 	display:inline-block;
@@ -248,8 +255,6 @@ li {
 .serega {
 	height: 350px;
 	width:566px;
-	margin: 0px;
-	padding: 0px;
 }
 .FotoSergey {
 	position: relative;
@@ -261,7 +266,6 @@ li {
 	height: 1500px
 }
 .intro4 {
-	padding:0px;
 	margin: 0px 204px 0px 210px;
 }
 .modul {
@@ -278,7 +282,6 @@ li {
 	width: 440px;
 	height: 1600px;
 	margin-top: 78px;
-	padding: 0px;
 	float: left;
 	color: #221B60;
 
@@ -353,17 +356,12 @@ li {
 /*линия с кружком и галочкой*/
 .headlines {
 	margin: 86px 600px 0px 570px;
-	padding: 0px;
 	position: absolute;
 }
 .liner{
- 	margin: 0px;
-	padding: 0px;
 	position: relative;
 }
 .elips1 {
-	margin: 0px;
-	padding: 0px;
 	position: absolute;
 }
 .elips {
@@ -381,42 +379,34 @@ li {
 .line {
 	position: absolute;
 	margin: 50px 0px 0px 25px;
-	padding: 0px;
 	height: 1543px;
 	border-left: 3px solid #6BADA6;
 }
 .elips2 {
 	margin: 250px 0px 0px 1px;
-	padding: 0px;
 	position: absolute;
 }
 .elips3 {
 	margin: 480px 0px 0px 1px;
-	padding: 0px;
 	position: absolute;
 }
 .elips4 {
 	margin: 708px 0px 0px 1px;
-	padding: 0px;
-	position: absolute;
+		position: absolute;
 }
 .elips5 {
 	margin: 886px 0px 0px 1px;
-	padding: 0px;
 	position: absolute;
 }
 .elips6 {
 	margin: 1124px 0px 0px 1px;
-	padding: 0px;
 	position: absolute;
 }
 .elips7 {
 	margin: 1305px 0px 0px 1px;
-	padding: 0px;
 	position: absolute;
 }
 .elips8 {
 	margin: 1543px 0px 0px 1px;
-	padding: 0px;
 	position: absolute;
 }
