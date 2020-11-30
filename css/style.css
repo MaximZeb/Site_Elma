@@ -282,7 +282,7 @@ li {
 .colom1 {
 	width: 440px;
 	height: 1600px;
-	margin-top: 78px;
+	margin-top: 85px;
 	float: left;
 	color: #221B60;
 }
@@ -314,9 +314,8 @@ li {
 /*первый блок 1 колонки*/
 .stringBlock1, .stringBlock2, .stringBlock3, .stringBlock4 {
 	width: 437px;
-	height: 122px;
+	height: auto;
 	margin-bottom: 140px;
-	margin-top: 140px;
 	float: left;
 }
 .may18 {
@@ -361,41 +360,23 @@ li {
 .colom2 {
 	width: 440px;
 	height: 1600px;
-	margin-top: 78px;
+	margin-top: 215px;
 	float: right;
 	color: #221B60;
 }
 .stringBlock12, .stringBlock22, .stringBlock32, .stringBlock42 {
 	width: 437px;
-	height: 122px;
+	height:auto;
 	margin-bottom: 140px;
-	margin-top: 140px;
 	float:right;
+
 }
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*линия с кружком и галочкой*/
 .headlines {
-	margin: 86px 600px 0px 570px;
-	position: absolute;
+	margin-top: 85px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 5%;
 }
 .liner{
 	position: relative;
@@ -422,19 +403,19 @@ li {
 	border-left: 3px solid #6BADA6;
 }
 .elips2 {
-	margin: 250px 0px 0px 1px;
+	margin: 200px 0px 0px 1px;
 	position: absolute;
 }
 .elips3 {
-	margin: 480px 0px 0px 1px;
+	margin: 420px 0px 0px 1px;
 	position: absolute;
 }
 .elips4 {
-	margin: 708px 0px 0px 1px;
+	margin: 678px 0px 0px 1px;
 		position: absolute;
 }
 .elips5 {
-	margin: 886px 0px 0px 1px;
+	margin: 856px 0px 0px 1px;
 	position: absolute;
 }
 .elips6 {
@@ -448,4 +429,30 @@ li {
 .elips8 {
 	margin: 1543px 0px 0px 1px;
 	position: absolute;
+}
+.contiener5 {
+	height: 500px;
+	width: auto;
+	margin: 30px;
+}
+/*Контейнер 5*/
+.slide5 {
+background-color: #221B60;
+margin-right: 117px;
+margin-left: 117px;
+}
+
+#poprobovati2 {
+	width: 400px;
+	height: 80px;
+	border: none;
+	font-weight: lighter;
+	font-size: 25px;
+	line-height: 30px;
+	color:#221B60;
+	margin:74px 0px 104px 0px;
+	padding:25px 0px 25px 25px;
+	background-color:#C8CEF0;;
+	display: block;
+	cursor: pointer;
 }
