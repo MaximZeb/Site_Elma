@@ -28,7 +28,6 @@ h1,h2,h3,h4,h5,h6 {
 body {
 	min-width:1600px;
 	font-family: Montserrat;
-	box-sizing: border-box;
 }
 .container {
 	min-width:1600px;
@@ -432,63 +431,75 @@ li {
 }
 /*Контейнер 5*/
 .contiener5 {
-	height: 500px;
-	width: auto;
-	margin: 30px;
+	height: 550px;
+	min-width:1600px;
+	position: relative;
 }
-/*.destop{
-	z-index: 99;
+/*картинка*/
+.destop{
+	z-index: 999999;
 	width:500px;
-	height: 150px;
+	height: 400px;
+    position: absolute;
+    margin: 
+}
+.monitor {
+	position: relative;
 }
 .Monitor{
 	background-image: url(../img/computer/desktop.svg);
 	width: 360px;
 	height: 330px;
 	background-repeat: no-repeat;
-	z-index: 99;
+	z-index: 9;
+	display: inline-block;
 }
 .shawdow {
+	position: absolute;
 	background-image: url(../img/computer/shawd.svg);
 	width: 500px;
 	height: 70px;
 	background-repeat: no-repeat;
-	z-index: 99;
+	z-index: 9;
+	display: inline-block;
 }
 .rast {
+	position: absolute;
 	background-image: url(../img/computer/Group 327.svg);
 	width: 150px;
 	height: 230px;
 	background-repeat: no-repeat;
-	z-index: 99;
-}*/
+	z-index: 9;
+	display: inline-block;
+}
 
 .slide5 {
-background-color: #221B60;
-margin-right: 117px;
-margin-left: 117px;
-height: 452px;
-width: 1365px;
-
+	margin-right: 117px;
+	margin-left: 117px;
 }
 .text5 {
-	
-	margin: 100px;
-	height: 280px;
-	width: 700px;
+	background-color: #221B60;
+	height: 452px;
+	width: 1365px;
+	position: relative;
 }
 .Description{
+	position: absolute;
+	margin: 79px auto 55px 92px;
+	height: 147px;
+	width: 700px;
  	font-style: normal;
-	font-weight: bold;
 	font-size: 40px;
 	line-height: 49px;
 	color: #FFFFFF;
 
 }
 .linkButton {
-
+	position: absolute;
+	margin: 282px auto 89px 92px;
 }
 #poprobovati2 {
+	position: absolute;
 	width: 314px;
 	height: 80px;
 	border: none;
@@ -501,4 +512,44 @@ width: 1365px;
 	background-color:#C8CEF0;;
 	display: block;
 	cursor: pointer;
+}
+.container6 {
+	height: 1050px;
+	min-width:1600px;
+	margin-top: 134px;
+}
+.intro6{
+	margin-right: 117px;
+	margin-left: 117px;
+}
+.line1 {
+	position: absolute;
+	margin: 50px 0px 0px 25px;
+	height: 670px;
+	border-left: 3px solid #6BADA6;
+}
+.colom12 {
+	width: 440px;
+	height: 500px;
+	margin-top: 85px;
+	float: left;
+	color: #221B60;
+}
+.colom22 {
+	width: 440px;
+	height: 500px;
+	margin-top: 215px;
+	float: right;
+	color: #221B60;
+}
+/*седьмой контейнер*/
+.container7 {
+	height: 500px;
+	min-width:1600px;
+	margin-top: 134px;
+	background-color: #AFE0D9;
+}
+.intro7 {
+	margin-right: 210px;
+	margin-left: 210px;
 }
