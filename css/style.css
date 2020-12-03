@@ -264,7 +264,7 @@ li {
 }
 /*контайнер 4*/
 .container4 {
-	height: 2000px
+	height: 2100px
 }
 .intro4 {
 	margin: 0px 204px 0px 210px;
@@ -436,7 +436,7 @@ li {
 	width: auto;
 	margin: 30px;
 }
-.destop{
+/*.destop{
 	z-index: 99;
 	width:500px;
 	height: 150px;
@@ -461,16 +461,33 @@ li {
 	height: 230px;
 	background-repeat: no-repeat;
 	z-index: 99;
-}
+}*/
 
 .slide5 {
 background-color: #221B60;
 margin-right: 117px;
 margin-left: 117px;
-height: auto;
-z-index: -1;
-}
+height: 452px;
+width: 1365px;
 
+}
+.text5 {
+	
+	margin: 100px;
+	height: 280px;
+	width: 700px;
+}
+.Description{
+ 	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 49px;
+	color: #FFFFFF;
+
+}
+.linkButton {
+
+}
 #poprobovati2 {
 	width: 314px;
 	height: 80px;
@@ -479,7 +496,7 @@ z-index: -1;
 	font-size: 25px;
 	line-height: 30px;
 	color:#221B60;
-	margin:74px 0px 104px 0px;
+	margin:0px
 	padding:25px 0px 25px 25px;
 	background-color:#C8CEF0;;
 	display: block;
