@@ -368,7 +368,6 @@ li {
 	height:auto;
 	margin-bottom: 140px;
 	float:right;
-
 }
 /*линия с кружком и галочкой*/
 .headlines {
@@ -441,27 +440,31 @@ li {
 	width:500px;
 	height: 400px;
     position: absolute;
-    margin: 
+    right:100px;
+    bottom: 60px;
 }
 .monitor {
-	position: relative;
+	
 }
 .Monitor{
 	background-image: url(../img/computer/desktop.svg);
 	width: 360px;
 	height: 330px;
 	background-repeat: no-repeat;
-	z-index: 9;
+	z-index: 99999;
 	display: inline-block;
+	position: relative;
 }
 .shawdow {
 	position: absolute;
 	background-image: url(../img/computer/shawd.svg);
-	width: 500px;
+	width: 480px;
 	height: 70px;
 	background-repeat: no-repeat;
-	z-index: 9;
+	z-index: 99;
 	display: inline-block;
+	bottom: 0px;
+	right: 70px;
 }
 .rast {
 	position: absolute;
@@ -471,14 +474,17 @@ li {
 	background-repeat: no-repeat;
 	z-index: 9;
 	display: inline-block;
+	left: 0px;
+	top: 0px;
 }
-
 .slide5 {
 	margin-right: 117px;
 	margin-left: 117px;
+	position: absolute;
+	bottom: 40px;
 }
 .text5 {
-	background-color: #221B60;
+	background-color: #3B347A;;
 	height: 452px;
 	width: 1365px;
 	position: relative;
@@ -492,7 +498,6 @@ li {
 	font-size: 40px;
 	line-height: 49px;
 	color: #FFFFFF;
-
 }
 .linkButton {
 	position: absolute;
