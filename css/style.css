@@ -559,8 +559,33 @@ li {
 	min-width:1600px;
 	margin-top: 134px;
 	background-color: #AFE0D9;
+	color: #221B60;
 }
 .intro7 {
 	margin-right: 210px;
 	margin-left: 210px;
+}
+.headform {
+	font-family: Montserrat;
+	font-style: normal;
+	font-size: 55px;
+	line-height: 67px;
+	margin: 40px 0px;
+}
+.desform {
+	font-style: normal;
+	font-size: 30px;
+	line-height: 150%;
+	margin: 40px 0px;
+}
+.forma {
+	
+}
+input[type=text], input[type=email], input[type=tel] {
+	width: 1180px;
+	margin: 32px;
+	border:none;
+	border-bottom: 2px solid #6BADA6;
+	background-color: #AFE0D9;
+	color:#6BADA6
 }
