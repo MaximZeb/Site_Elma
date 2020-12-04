@@ -437,14 +437,17 @@ li {
 /*картинка*/
 .destop{
 	z-index: 999999;
-	width:500px;
-	height: 400px;
+	width:700px;
+	height: 480px;
     position: absolute;
     right:100px;
     bottom: 60px;
 }
 .monitor {
-	
+	position: relative;
+	width: 660px;
+	height: 480px;
+	margin: 0px;
 }
 .Monitor{
 	background-image: url(../img/computer/desktop.svg);
@@ -453,12 +456,15 @@ li {
 	background-repeat: no-repeat;
 	z-index: 99999;
 	display: inline-block;
-	position: relative;
+	position: absolute;
+	bottom: 20px;
+	left: 150px;
+
 }
 .shawdow {
 	position: absolute;
 	background-image: url(../img/computer/shawd.svg);
-	width: 480px;
+	width: 500px;
 	height: 70px;
 	background-repeat: no-repeat;
 	z-index: 99;
@@ -468,13 +474,13 @@ li {
 }
 .rast {
 	position: absolute;
-	background-image: url(../img/computer/Group 327.svg);
-	width: 150px;
-	height: 230px;
+	background-image: url(../img/computer/rast.svg);
+	width: 300px;
+	height: 300px;
 	background-repeat: no-repeat;
 	z-index: 9;
 	display: inline-block;
-	left: 0px;
+	left: 100px;
 	top: 0px;
 }
 .slide5 {
