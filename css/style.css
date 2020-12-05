@@ -555,7 +555,7 @@ li {
 }
 /*седьмой контейнер*/
 .container7 {
-	height: 1500px;
+	height: 1200px;
 	min-width:1600px;
 	margin-top: 134px;
 	background-color: #AFE0D9;
@@ -571,6 +571,8 @@ li {
 	font-size: 55px;
 	line-height: 67px;
 	margin: 40px 0px;
+	font-weight: bold;
+	margin-top: 95px;
 }
 .desform {
 	font-style: normal;
@@ -624,4 +626,6 @@ input[type=email]:focus {
 	margin: 30px;
 	font-size: 20px;
 	line-height: 35px;
+	border-bottom: 2px solid #6BADA6;
+	background-color: #AFE0D9;
 }
