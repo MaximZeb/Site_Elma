@@ -492,7 +492,7 @@ li {
 .text5 {
 	background-color: #3B347A;;
 	height: 452px;
-	width: 1365px;
+	min-width:1600px;
 	position: relative;
 }
 .Description{
@@ -555,7 +555,7 @@ li {
 }
 /*седьмой контейнер*/
 .container7 {
-	height: 500px;
+	height: 1500px;
 	min-width:1600px;
 	margin-top: 134px;
 	background-color: #AFE0D9;
@@ -583,9 +583,40 @@ li {
 }
 input[type=text], input[type=email], input[type=tel] {
 	width: 1180px;
+	height: 40px;
 	margin: 32px;
 	border:none;
 	border-bottom: 2px solid #6BADA6;
 	background-color: #AFE0D9;
-	color:#6BADA6
+	color:#221B60;
+	text-decoration: none;
+	outline: 0 !important;
+	font-size: 30px;
+}
+input[type=text]::-webkit-input-placeholder {
+    color: #6BADA6;
+} 
+input[type=email]::-webkit-input-placeholder {
+    color: #6BADA6;
+} 
+input[type=tel]::-webkit-input-placeholder {
+    color: #6BADA6;
+} 
+input[type=text]::-moz-placeholder {
+    color: #6BADA6;
+}
+input[type=email]::-moz-placeholder {
+    color: #6BADA6;
+}
+input[type=tel]::-moz-placeholder {
+    color: #6BADA6;
+}
+input[type=tel]:focus {
+  border-bottom: 2px solid #221B60;
+}
+input[type=text]:focus {
+  border-bottom: 2px solid #221B60;
+}
+input[type=email]:focus {
+  border-bottom: 2px solid #221B60;
 }
