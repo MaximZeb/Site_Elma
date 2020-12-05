@@ -572,16 +572,17 @@ li {
 	line-height: 67px;
 	margin: 40px 0px;
 	font-weight: bold;
-	margin-top: 95px;
+	padding-top: 95px;
+	padding-left: 30px;
 }
 .desform {
 	font-style: normal;
 	font-size: 30px;
 	line-height: 150%;
-	margin: 40px 0px;
+	padding-left: 30px;
 }
 .forma {
-	
+	margin: 20px 0px;
 }
 input[type=text], input[type=email], input[type=tel] {
 	width: 1180px;
@@ -628,4 +629,41 @@ input[type=email]:focus {
 	line-height: 35px;
 	border-bottom: 2px solid #6BADA6;
 	background-color: #AFE0D9;
+}
+.container8 {
+	height: 373px;
+	min-width:1600px;
+	background-color: #3B347A;
+	color: #F8F9FF;
+}
+.intro8 {
+	margin-right: 210px;
+	margin-left: 210px;
+}
+.h4 {
+	font-family: Graphik LC;
+	font-style: normal;
+	font-size: 25px;
+	line-height: 22px;
+	font-weight: bold;
+	padding-top: 45px;
+}
+.kolom1 {
+	display: inline-block;
+	margin-right: 60px;
+	font-family: Graphik LC;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 30px;
+	margin-top: 15px;
+}
+.borderbottom {
+	border: 1px solid #F8F9FF;
+	opacity: 0.2;
+	width: auto;
+	margin-top: 44px;
+}
+.tovar{
+	margin-top: 33px;
 }
