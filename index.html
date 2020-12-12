@@ -336,9 +336,10 @@ Rounding" src="img/Sergey.jpg">
 				Для бесплатного участия в обучающем курсе оставьте свои контакты
 			</div>
 			<div class="forma">
-				<form action="" method="post" autocomplete="on">
-					<input type="text" class="" placeholder="Имя и Фамилия"><br>
-					<input type="tel" class="" placeholder="Телефон"><br>
+				<form  name ="myForm" onsubmit="return validateForm()" action="" method="post" autocomplete="on">
+					<input name="fname" type="text" class="" placeholder="Имя и Фамилия"><br>
+					<input id="tel" type="tel" class="" placeholder="Телефон"><br>
+					<p id="demo"></p><br>
 					<input type="email" class="" placeholder="Email"><br>
 					<input type="text" class="" placeholder="Компания"><br>
 					<input type="text" class="" placeholder="Должность"><br>
